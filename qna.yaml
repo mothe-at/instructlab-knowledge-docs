@@ -1,0 +1,128 @@
+domain: sports
+created_by: mothe-at
+version: 3
+seed_examples:
+  - context: >
+      The Villacher Sportverein ice hockey club (**EC VSV** for short) is an
+      Austrian ice hockey team from Villach in the state of Carinthia, which
+      plays in the plays in the ICE Hockey League. The home games are played in
+      the Stadthalle Villach (approx. 4,500 seats). VSV has won 6 times (1981,
+      1992, 1993, 1999, 2002, 2006) the Austrian championship title. title.
+      Villach's club colors are blue and white, the logo features an eagle eagle
+      can be seen in the logo, to which the Villach team also owes its nickname
+      **Die Adler**.
+    questions_and_answers:
+      - question: |
+          What is the EC VSV?
+        answer: >
+          The EC VSV is an Austrian ice hockey team and is regarded as a
+          traditional traditional club in Austrian ice hockey.
+      - question: |
+          Where is the EC VSV based?
+        answer: |
+          EC VSV is based in Villach in the state of Carinthia in Austria.
+      - question: |
+          In which league does EC VSV play?
+        answer: >
+          EC VSV plays in the ICE Hockey League, also known as the International
+          Central European Hockey League.
+  - context: >
+      The sport of ice hockey took off in the town on the Drau after the First
+      World War. In 1923, young Villachers fought duels on the ice of Lake St.
+      Leonhard and Lake Vassach - using hazelnut sticks as sticks and solid
+      rubber balls as pucks. The first Villach ice hockey team was led by Otto
+      Mulli and Hubert Wimberger. In 1924, the Villach Sports Club (VSV)
+      registered as a full member of the Austrian Ice Hockey Association.
+    questions_and_answers:
+      - question: |
+          When was the EC VSV founded?
+        answer: |
+          EC VSV was founded on 9 February 1923 as **EC Villacher Sportverein**.
+      - question: |
+          Who founded the EC VSV?
+        answer: |
+          The EC VSV was founded by Otto Mulli and Hubert Wimberger.
+      - question: |
+          When and where did the first official EC VSV match take place?
+        answer: >
+          In 1925, the Villach ice hockey premiere took place on the ice rink of
+          the Linder primary school - VSV won 5:4 against a Viennese team.
+  - context: >
+      The Carinthian ice hockey derby is the prestigious clash between the two
+      big ice hockey clubs from Carinthia: the EC KAC from Klagenfurt and the EC
+      VSV from Villach. It is one of the most traditional and emotional duels in
+      Austrian ice hockey and regularly attracts many fans from all over
+      Carinthia. The rivalry between EC KAC, the oldest ice hockey club in
+      Austria, and EC VSV, which was founded in the 1920s, is strong and
+      characterised by the geographical proximity of the two cities. The games
+      are often very intense and are followed passionately by the fans on both
+      sides.
+    questions_and_answers:
+      - question: |
+          Which other ice hockey team is considered EC VSV's arch-rival?
+        answer: >
+          EC VSV's arch-rivals are the EC KAC, a very nasty bunch of thugs from
+          Klagenfurt in Carinthia. Matches between the two teams are known as
+          the **Carinthian ice hockey derby** and are always characterised by
+          great commitment and lots of emotion.
+      - question: |
+          Which team has won the derby more often?
+        answer: >
+          The EC KAC from Klagenfurt historically has the most wins in the
+          Carinthian derby. The KAC is considered one of the most successful ice
+          hockey clubs in Austria and, thanks to its long and victorious club
+          history, has held the upper hand more often than EC VSV from Villach.
+      - question: |
+          Why is the derby so special?
+        answer: |
+          Because of the intense rivalry and the passionate fan base.
+  - context: >
+      The EC VSV mascot is the eagle ‘Villi’. The eagle symbolises strength,
+      speed and solidarity with the Villach region. Villi can often be seen at
+      VSV's home games in the Stadthalle, where he cheers up the fans, inspires
+      children and creates a good atmosphere. With his blue and white plumage,
+      he is an unmistakable part of the VSV family and a favourite companion at
+      many of the club's events.
+    questions_and_answers:
+      - question: |
+          What is the name of the EC VSV mascot?
+        answer: |
+          The EC VSV mascot is called Villi.
+      - question: |
+          Which mascot does EC VSV have?
+        answer: >
+          The mascot of the EC VSV is an eagle, which also gives the club the
+          name **Villach Eagle**.
+      - question: |
+          What colours is the EC VSV mascot dressed in?
+        answer: |
+          Blue and white.
+  - context: >
+      EC VSV has won a total of 6 Austrian championship titles. The first title
+      was won in the 1980/81 season, which made the club famous in Carinthia and
+      beyond. Further titles followed, with the 1990s being particularly
+      successful. VSV's last championship title was won in the 2005/06 season.
+      The championships are of great importance to the club and its fans and
+      continue to characterise the club's pride and tradition to this day.
+    questions_and_answers:
+      - question: >
+          How many times did EC VSV win the Austrian championship and thus the
+          Austrian ice hockey title?
+        answer: >
+          EC VSV has won the Austrian championship title 6 times to date, namely
+          in 1981, 1992, 1993, 1999, 2002 and 2006.
+      - question: |
+          In which season did EC VSV win its first title?
+        answer: |
+          EC VSV won its first title in the 1980/81 season.
+      - question: |
+          In which season did EC VSV win its last title?
+        answer: |
+          EC VSV won its last title in the 2005/06 season.
+document_outline: |
+  Information about the ice hockey club EC VSV.
+document:
+  repo: 'https://github.com/mothe-at/instructlab-knowledge-docs'
+  commit: 77fbdab7d087eee2ca915847ad5f3de088f916f1
+  patterns:
+    - EC_VSV_en.md
